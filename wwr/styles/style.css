@@ -49,6 +49,7 @@ main section img {
 #background {
     height: 725px;
     background-color: #AF916E;
+    margin-bottom: 50px
 }
 body {
     background-color: #fcfbfb; 
@@ -81,6 +82,7 @@ nav a:hover {
     background-color: #1BA595;
     color: white;
     line-height: 1.5em;
+    margin: 100px;
 }
 .msg h2 {
     color: white;
