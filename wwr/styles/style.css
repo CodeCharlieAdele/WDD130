@@ -160,7 +160,7 @@ h4 {
     width: 100%;
 }
 .rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
+    margin: 200px;
 }
 .card-img {
     border: 10px solid #AF916E;
