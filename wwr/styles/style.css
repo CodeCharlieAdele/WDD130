@@ -58,12 +58,6 @@ nav a {
 .button-box {
     text-align: center;
 }
-main section {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-}
 main section img {
     box-sizing: border-box;
 }
@@ -122,6 +116,12 @@ nav a:hover {
     padding-left: 10px;
     padding-right: 10px;
 }
+.home-grid{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
 footer {
     background-color: #BFE2DB;
     color: #000;
@@ -175,7 +175,7 @@ h4 {
     grid-column: 2/4;
     grid-row: 2/3;
 }
-.campint-card {
+.camping-card {
     grid-column: 5/7;
     grid-row: 2/3;
 }
@@ -186,7 +186,7 @@ h4 {
 #background {
     height: 725px;
     background-color: #AF916E;
-    margin-bottom: 50px
+    margin-bottom: 50px;
     grid-column: 1/11;
     grid-row: 4/9;
 }
