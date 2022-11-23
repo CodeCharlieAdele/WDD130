@@ -120,6 +120,7 @@ nav a:hover {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
+    grid-gap: 20px;
     
 }
 footer {
@@ -160,7 +161,7 @@ h4 {
     width: 100%;
 }
 .rivers-card, .camping-card, .rapids-card {
-    margin: 200px;
+    margin: 200px, 0;
 }
 .card-img {
     border: 10px solid #AF916E;
