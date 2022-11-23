@@ -99,7 +99,7 @@ nav a:hover {
     color: white;
     line-height: 1.5em;
     margin: 100px;
-    grid-column: 6/10;
+    grid-column: 5/11;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
@@ -119,8 +119,8 @@ nav a:hover {
 .home-grid{
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 40px;
     
 }
 footer {
