@@ -123,6 +123,29 @@ nav a:hover {
     
     
 }
+#river-hero {
+    background-color: #BFE2DB;
+    color: #000;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: justify;
+}
+#river-msg {
+    text-align: justify;
+    font-size: .10em;
+}
+.river-grid {
+    display: grid;
+}
+.salmon-card {
+    
+}
+
+
+
+
 footer {
     background-color: #BFE2DB;
     color: #000;
