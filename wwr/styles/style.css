@@ -127,21 +127,60 @@ nav a:hover {
     background-color: #BFE2DB;
     color: #000;
     padding: 25px 50px;
+    margin: 20px;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
-    align-items: justify;
-}
-#river-msg {
-    text-align: justify;
-    font-size: .10em;
-}
-.river-grid {
-    display: grid;
+    align-items: center;
+    font-size: .80em;
+    text-align: center;
 }
 .salmon-card {
-    
+   display: inline-flex;
+   background-color: #af916e91;
+   /* grid-template-columns: repeat(4, fr1);
+   grid-template-rows: 200px 500px 200px; */
+   background-color: #af916e91; 
+   padding: 25px 25px;
+   margin: 20px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   font-size: .70em;
+   text-align: justify;
 }
+.salmon-card h2 {
+    padding-top: 15px;
+}
+.river-img {
+    padding: 20px;
+}
+.gray-card {
+    display: inline-flex;
+     background-color: #BFE2DB; 
+    padding: 25px 25px;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: .70em;
+    text-align: justify;
+ }
+ .gray-card h2 {
+    padding-top: 18px;
+ }
+ .grand-card {
+    display: inline-flex;
+     background-color: #af916e91; 
+    padding: 25px 25px;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: .70em;
+    text-align: justify;
+ }
+ .grand-card h2 {
+    padding-top: 15px;
+ }
+
 
 
 
