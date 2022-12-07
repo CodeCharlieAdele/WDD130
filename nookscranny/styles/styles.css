@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&family=Marhey:wght@300&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h2{
+    margin: 0;
+    font-family: 'M PLUS Rounded 1c';
+}
+h1 {
+    font-family: 'Marhey';
+}
+/*header*/
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+header {
+    background-color:#F5EED9;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+header h1 {
+    font-family: 'Marhey';
+}
+.block1 {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 100px;
+}
+nav {
+    width: 50%;
+    margin-left: auto;
+    height: 100px;
+}
+nav a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Marhey';
+    background-color: #5B79CC;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    border-radius: 5px;
+} 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: #e3864c;
+    color: white;
+}
+/*welcome card*/
+#welcome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    background-color: #FFC53C;
+}
+.welcome-img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-left: 30px;
+    padding: 30px;
+}
+#welcome h1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    margin-right: 30px;
+}
+#welcome h2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-right: 30px;
+}
+/*Dropbox card*/
+#dropbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    background-color: #F5EED9;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.dropbox-img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+#dropbox h2 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+/*bulletin card*/
+#bulletin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    background-color: #9F624B;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.bulletin-img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-left: 30px;
+}
+#bulletin h2 {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+/*selling image card*/
+#selling-card {
+    background-color: #5B79CC;
+    display: grid;
+    grid-template-columns: repeat(4, fr1);
+    grid-template-rows: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.sell-img {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    margin-top: 25px;
+    margin-left: 250px;
+}
+#selling-card h1 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color: black;
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 165px;
+    z-index: 1;
+}
+.product-button {
+    display: block;
+    align-content: center;
+    background-color: #e3864c;
+    color: white;
+    font-family: 'marhey';
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    margin-left: 650px;
+    border-radius: 5px;
+    width: 100px;
+}
+/*footer*/
+footer {
+    background-color: #F5EED9;
+    color: #000;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #000;
+}
+footer h3 {
+    font-size: 1em;
+    font-family: 'Marhey';
+}    
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
