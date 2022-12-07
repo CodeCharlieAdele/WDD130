@@ -130,7 +130,7 @@ nav a:hover {
 #selling-card {
     background-color: #5B79CC;
     display: grid;
-    grid-template-columns: repeat(4, fr1);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 400px;
     margin-top: 30px;
     margin-left: 30px;
@@ -140,13 +140,13 @@ nav a:hover {
     grid-column: 1/5;
     grid-row: 1/2;
     margin-top: 25px;
-    margin-left: 250px;
+    margin-left: 230px;
 }
 #selling-card h1 {
     grid-column: 2/4;
     grid-row: 1/2;
     color: black;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bolder;
     text-align: center;
     margin-top: 165px;
