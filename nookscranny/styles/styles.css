@@ -195,6 +195,15 @@ footer .social img {
     padding-top: 15px;
 }
 /*Team Page*/
+#team-heading {
+    padding-top: 20px;
+}
+#team-heading h1 {
+    color: #9F624B;
+}
+#team-heading h2 {
+    color: #5B79CC;
+}
 /*team cards*/
 .tom-card, .timmy-card, .tommy-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -233,13 +242,16 @@ footer .social img {
 #team-card-container {
     display: flex;
     margin-top: 50px;
-    background-size: auto 100px;
-    background: #5B79CC;
+    background: white/#5B79CC;
 }
 /*team bio's*/
 #team-info {
     display: flex;
     background-color: #5B79CC;
+    color: white;
+}
+#tom-info h1, #timmy-info h1, #tommy-info h1 {
+    color: #FFC53C;
 }
 #tom-info {
     max-width: 300px;
