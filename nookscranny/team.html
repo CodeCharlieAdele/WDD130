@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,36 +10,67 @@
 </head>
 <body>
     <header>
-        <a id="logo_link" href="index.hmtl">
-            <img class="logo" src="images/nookscrannylogo.png" alt="Nook's Cranny Logo">
+        <div class="block1">
+            <a id="logo_link" href="index.hmtl">
+                <img class="logo" src="images/small-logo.png" alt="Nook's Cranny Logo">
             </a>
             <h1>Nook's Cranny</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="products.html">Products</a>
-                <a href="team.html">Meet the Team</a>
-            </nav>
+        </div>
+        <nav>
+            <a href="products.html">Products</a>
+            <a href="team.html">Meet the Team</a>
+        </nav>
     </header>
     <div id="team-heading">
         <h1>Come meet our family! </h1>
-        <h2>The Nook’s are a family of Tanuki who has been building up the Island community since 2020. Nook’s cranny was started by Tom Nook himself in 2001, and since then Nook inc. has grown exponentially! Even still our focus is always on family and building our local community, in fact, Tom Nook built this community!</h2>
+        <h2>The Nook’s are a family of Tanuki who has been building up the Island community since 2020. Nook’s cranny was started by Tom Nook himself in 2001, and since then Nook inc. has grown exponentially! Timmy and Tommy were rescued as babies and adopted by Tom Nook. Since then Timmy and Tommy have learned the business in and out from Tom. Our focus is always on family and building our local community, in fact, Tom Nook built this community!</h2>
     </div>
-    <div id="team-cards">
-        <img src="images/3.1.png" alt="Tom Nook">
-        <img src="images/1.1.png" alt="Timmy">
-        <img src="images/2.1.png" alt="Tommy">
+    <div id="team-card-container">
+        <div class="tom-card">
+            <img src="images/3.1.png" alt="Tom" style="width:100%">
+            <h1>Tom Nook</h1>
+            <p class="title">CEO & Founder</p>
+            <p>Tanuki University</p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <p><button>Contact</button></p>
+        </div>
+        <div class="timmy-card">
+            <img src="images/2.1.png" alt="Timmy" style="width:100%">
+            <h1>Timmy Nook</h1>
+            <p class="title">Nook's Cranny Director</p>
+            <p>Nook College</p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <p><button>Contact</button></p>
+        </div>
+        <div class="tommy-card">
+            <img src="images/1.1.png" alt="Tommy" style="width:100%">
+            <h1>Tommy Nook</h1>
+            <p class="title">Nook's Cranny Creative Manager</p>
+            <p>Nook College</p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <p><button>Contact</button></p>
+        </div>
     </div>
     <div id="team-info">
-        <h1>Tom Nook</h1>
-        <h2>Tom Nook is the creator of Nook inc. He started out in 2001 in Animal Forest, opening the first ever Nook's Cranny. Since then Tom has dabbled in home renovations and loans, upgrading his storefronts, and most recently running a Destination Vacation Island business. This is the business he is currently working on. </h2>
-        <h1>Timmy</h1>
-        <h2>Timmy is the older twin brother of Tommy. He and his brother were rescued and adopted by Tom Nook. Together Timmy and Tommy have learned the business in and out from Tom. Timmy is now the head of Nook’s Cranny since Tom has moved on to different endeavors. Timmy is an intelligent and business-minded young man. He keeps the store running smoothly, and is always looking for the best deals for you.</h2>
-        <h1>Tommy</h1>
-        <h2>Tommy is the adopted son of Tom, twin to Timmy, and the creative mind behind Nook’s Cranny. Tommy loves to garden and can help you with all your flower and tool needs! While he’s a bit shy sometimes, Tommy is always ready to lend a helping hand and answer any of your questions – especially if it’s about gardening.</h2>
+        <div id="tom-info">
+            <h1>Tom Nook</h1>
+            <h2>Tom Nook is the creator of Nook inc. He started out in 2001 in Animal Forest, opening the first ever Nook's Cranny. Since then Tom has dabbled in home renovations and loans, upgrading his storefronts, and most recently running a Destination Vacation Island business. This is the business he is currently working on. </h2>
+        </div>
+        <div id="timmy-info">
+            <h1>Timmy</h1>
+            <h2>Timmy is the older twin brother of Tommy. Timmy is now the head of Nook’s Cranny since Tom has moved on to different endeavors. Timmy is an intelligent and business-minded young man. He keeps the store running smoothly, and is always looking for the best deals for you.</h2>
+        </div>
+        <div id="tommy-info">
+            <h1>Tommy</h1>
+            <h2>Tommy is the adopted son of Tom, twin to Timmy, and the creative mind behind Nook’s Cranny. Tommy loves to garden and can help you with all your flower and tool needs! While he’s a bit shy sometimes, Tommy is always ready to lend a helping hand and answer any of your questions – especially if it’s about gardening.</h2>
+        </div>
     </div>
-    <div id="background"></div>
+    <div id="team-background"></div>
     <footer>
-        <img src="images/nookscrannylogo.png" alt="Nook's Cranny Logo">
+        <img src="images/small-logo.png" alt="Nook's Cranny Logo">
         <img src="images/facebook.png" alt="Facebook link">
         <img src="images/instagram.png" alt="Instagram link">
         <h3>Nook's Cranny ACNH &copy; 2022 - Charlie Luckart</h3>
