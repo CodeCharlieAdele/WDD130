@@ -211,8 +211,8 @@ footer .social img {
     margin: auto;
     text-align: center;
     background-color: white;
+    height: 600px;
   }
-  
   .title {
     color: grey;
     font-size: 18px;
@@ -242,7 +242,16 @@ footer .social img {
 #team-card-container {
     display: flex;
     margin-top: 50px;
-    background: white/#5B79CC;
+}
+.team-background {
+    width: 100%;
+    height: 345px;
+    background: linear-gradient(
+        to bottom,
+        white 50%
+        #5b79cc 50%
+    );
+    
 }
 /*team bio's*/
 #team-info {
@@ -257,23 +266,20 @@ footer .social img {
     max-width: 300px;
     margin: auto;
     text-align: center;
+    padding-top: 290px;
     
 }
 #timmy-info {
     max-width: 300px;
     margin: auto;
     text-align: center;
+    padding-top: 260px;
 }
 #tommy-info {
     max-width: 300px;
     margin: auto;
     text-align: center;
+    padding-top: 300px;
     
 }
-/*team background*/
-/* #team-background { */
-    background-color: #5B79CC;
-    width: 100%;
-    height: 1000px;
-    z-index: -1;
-}
+
