@@ -280,4 +280,43 @@ footer .social img {
     padding-top: 300px;
     
 }
-
+/*product page*/
+/*image welcome page thingy*/
+#product-hero {
+    padding: 20px;
+    text-align: center;
+    background-color: #e3864c;
+    color: white;
+}
+/*product cards*/
+#product-info {
+    display: flex;
+}
+#p-card-one {
+    max-width: 500px;
+    margin: auto;
+    text-align: justify;
+    background-color: #5B79CC;
+    margin: 85px;
+    padding: 50px;
+    color: white;
+}
+#p-card-two {
+    
+    display: inline-flexbox;
+    max-width: 500px;
+    margin: auto;
+    text-align: justify;
+    background-color: #5B79CC;
+    margin: 85px;
+    margin-left: 90px;
+    padding: 50px;
+    color: white;
+}
+/*product-tag*/
+.product-tag {
+    background-color: #9F624B;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
